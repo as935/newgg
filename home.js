@@ -347,7 +347,7 @@ async function fetchActivityLogs(userId, plantName) {
 
 
 function openActivityLog(userId, plantName) {
-  // Fetch activity logs for the specific user and plant
+  // Fetch activity logs for the specific user and plants
   fetchActivityLogs(userId, plantName)
     .then((activityLogs) => {
       displayActivityLogsInPopup(activityLogs);
