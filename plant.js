@@ -462,7 +462,7 @@ async function removeFromNursery(userId, plantId) {
 
 //
 
-// Procedure to create the log_activity table
+// Procedure to create the log_activity tables
 async function createLogActivityTable() {
   try {
     const createTableQuery = `
